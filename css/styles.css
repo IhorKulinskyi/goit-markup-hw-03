@@ -203,7 +203,7 @@
   background-color: var(--secondary-bgc);
 }
 
-.team > .title {
+.team .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -215,7 +215,7 @@
   margin-bottom: 30px;
 }
 
-.team .list .title {
+.team .subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
