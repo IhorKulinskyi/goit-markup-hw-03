@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="page">
+  <body class="page portfolio">
     <!--Header-->
     <header class="header">
       <a class="logo link" href="./index.html">
@@ -44,6 +44,7 @@
       <!--Gallery-->
       <section>
         <!--Filters-->
+        <div class="filters container">
         <h1 class="hide-title">Портфоліо</h1>
         <ul class="list filter">
           <li><button class="button" type="button">Усі</button></li>
@@ -53,18 +54,20 @@
           <li><button class="button" type="button">Маркетинг</button></li>
           <li></li>
         </ul>
+        </div>
         <!--Catalog-->
+        <div class="gallery container">
         <ul class="list catalog">
-          <li class="item">
+          <li class="item-card">
             <a class="link" href="#">
-              <img src="./images/item1.jpg" alt="Технокряк" width="370px" />
+              <img class="item-image" src="./images/item1.jpg" alt="Технокряк" width="370px" />
               <h2 class="title">Технокряк</h2>
               <p class="description">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="item-card">
             <a class="link" href="#">
-              <img
+              <img class="item-image"
                 src="./images/item2.jpg"
                 alt="Постер New Orlean vs Golden Star"
                 width="370px"
@@ -73,9 +76,9 @@
               <p class="description">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="item-card" class="item-card">
             <a class="link" href="#">
-              <img
+              <img class="item-image"
                 src="./images/item3.jpg"
                 alt="Ресторан Seafood"
                 width="370px"
@@ -84,23 +87,23 @@
               <p class="description">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="item-card">
             <a class="link" href="#">
-              <img src="./images/item4.jpg" alt="Проєкт Prime" width="370px" />
+              <img class="item-image" src="./images/item4.jpg" alt="Проєкт Prime" width="370px" />
               <h2 class="title">Проєкт Prime</h2>
               <p class="description">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="item-card">
             <a class="link" href="#">
-              <img src="./images/item5.jpg" alt="Проєкт Boxes" width="370px" />
+              <img class="item-image" src="./images/item5.jpg" alt="Проєкт Boxes" width="370px" />
               <h2 class="title">Проєкт Boxes</h2>
               <p class="description">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="item-card">
             <a class="link" href="#">
-              <img
+              <img class="item-image"
                 src="./images/item6.jpg"
                 alt="Inspiration has no Borders"
                 width="370px"
@@ -109,9 +112,9 @@
               <p class="description">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="item-card">
             <a class="link" href="#">
-              <img
+              <img class="item-image"
                 src="./images/item7.jpg"
                 alt="Видання Limited Edition"
                 width="370px"
@@ -120,16 +123,16 @@
               <p class="description">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="item-card">
             <a class="link" href="#">
-              <img src="./images/item8.jpg" alt="Проєкт LAB" width="370px" />
+              <img class="item-image" src="./images/item8.jpg" alt="Проєкт LAB" width="370px" />
               <h2 class="title">Проєкт LAB</h2>
               <p class="description">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="item-card">
             <a class="link" href="#">
-              <img
+              <img class="item-image"
                 src="./images/item9.jpg"
                 alt="Growing Business"
                 width="370px"
@@ -139,10 +142,12 @@
             </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!--Footer-->
     <footer class="footer">
+      <div class="container">
       <a class="link logo" href="./index.html">
         <span class="logo-accent">Web</span>Studio
       </a>
@@ -159,6 +164,7 @@
           <a class="link contact" href="tel:+380991111111">+38 099 111 11 11</a>
         </li>
       </ul>
+      </div>
     </footer>
   </body>
 </html>
