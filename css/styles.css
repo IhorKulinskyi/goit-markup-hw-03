@@ -149,8 +149,8 @@
 /*Featues*/
 
 .features {
-  padding-top: 95px;
-  padding-bottom: 95px;
+  margin-top: 95px;
+  margin-bottom: 95px;
   background-color: var(--basic-white);
 }
 
@@ -204,6 +204,7 @@
   line-height: 1.16;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .team-card {
@@ -239,6 +240,8 @@
 
 .footer {
   background-color: var(--accent-bgc);
+  padding-top: 60px;
+  padding-bottom: 60px;
   /*display: inline-block;*/
 }
 
