@@ -55,7 +55,7 @@ img {
   text-align: center;
 }
 
-.section{
+.section {
   padding-top: 95px;
   padding-bottom: 95px;
 }
@@ -154,7 +154,7 @@ img {
 .hero {
   background-color: var(--accent-bgc);
   text-align: center;
-  padding:200px 412.1px;
+  padding: 200px 412.1px;
   display: inline-block;
 }
 
@@ -190,7 +190,6 @@ img {
 /*Featues*/
 
 .features {
-
   background-color: var(--basic-white);
 }
 
@@ -220,7 +219,6 @@ img {
 /*Our action*/
 
 .our-action {
-
   background-color: var(--basic-white);
 }
 
@@ -244,7 +242,6 @@ img {
 /*Team*/
 
 .team {
-
   background-color: var(--secondary-bgc);
 }
 
@@ -400,11 +397,10 @@ img {
   width: 370px;
 }
 
-.item-box{
+.item-box {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
